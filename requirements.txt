@@ -2,3 +2,4 @@ duckdb
 pandas
 matplotlib
 tabulate
+streamlit

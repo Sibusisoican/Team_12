@@ -44,13 +44,23 @@ Example:
 ## Setup
 
 ```bash
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
+
+## Run (Streamlit Web UI)
+
+```bash
+python3 -m streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501
+```
+
+Open in browser:
+- `http://localhost:8501` (local machine)
+- or your forwarded cloud URL if using a remote dev environment.
 
 ## Run (single question)
 
 ```bash
-python -m analyst_agent.main \
+python3 -m analyst_agent.main \
   --csv-dir "/home/ubuntu/.cursor/projects/workspace/uploads" \
   --question "How many campaigns launched last week by campaign_name?"
 ```
@@ -58,7 +68,7 @@ python -m analyst_agent.main \
 ## Run (interactive mode)
 
 ```bash
-python -m analyst_agent.main --csv-dir "/home/ubuntu/.cursor/projects/workspace/uploads"
+python3 -m analyst_agent.main --csv-dir "/home/ubuntu/.cursor/projects/workspace/uploads"
 ```
 
 ---
