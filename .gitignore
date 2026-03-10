@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+data/knowledge_base.duckdb
+data/schema_metadata.json
+data/charts/*.png
+reports/*.md
