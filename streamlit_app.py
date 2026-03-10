@@ -7,7 +7,7 @@ import streamlit as st
 from analyst_agent.main import run_question
 
 
-DEFAULT_CSV_DIR = "/home/ubuntu/.cursor/projects/workspace/uploads"
+DEFAULT_CSV_DIR = "/workspaces/Team_12/Data/"
 
 
 def main() -> None:
